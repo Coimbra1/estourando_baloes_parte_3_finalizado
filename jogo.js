@@ -1,3 +1,10 @@
+function pausarMusica() {
+	var musica = document.getElementById('musica');
+	if (musica) {
+		musica.pause();
+	}
+}
+
 var timerId = null; //variável que armazena a chamada da função timeout
 
 function iniciaJogo(){
